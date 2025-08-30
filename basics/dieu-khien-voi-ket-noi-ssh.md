@@ -87,9 +87,9 @@ ssh -i ~/.ssh/id_rsa -p <ServerPort> <UserName>@<ServerDomain>
 | ServerDomain            | ServerPort |
 | ----------------------- | ---------- |
 | notebook.iec-uit.com    | 8280       |
-| bmtt.iec-uit.com        | 8286       |
-| pre-master.iec-uit.com  | 8281       |
-| master.iec-uit.com      | 8282       |
+| pre-master.iec-uit.com  | 8282       |
+| bmtt.iec-uit.com        | 8284       |
+| master.iec-uit.com      | 8281       |
 | post-master.iec-uit.com | 8283       |
 
 ## B. Hướng Dẫn Sử Dụng VSCode và PyCharm

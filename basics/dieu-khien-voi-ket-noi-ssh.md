@@ -79,7 +79,9 @@ chmod 600 ~/.ssh/authorized_keys
 Trên máy tính cá nhân thử kết nối lại bằng SSH Key trên terminal:
 
 ```bash
-ssh -i ~/.ssh/id_rsa -p <ServerPort> <UserName>@<ServerDomain>
+ssh -i ~/.ssh/id_rsa -p <ServerPort> <SSH-UserName>@<ServerDomain>
+# Lưu ý: Username để SSH sẽ có thêm tiền tố jupyter-
+# tức là <SSS-Username> = jupyter-<WebUsername>
 ```
 
 ***
